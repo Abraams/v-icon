@@ -1,9 +1,9 @@
 <template>
     <svg
         xmlns="http://www.w3.org/2000/svg"
-        :width="width"
-        :height="height"
-        :viewBox="viewBox"
+        :width="width || icon.width"
+        :height="height || icon.height"
+        :viewBox="viewBox || icon.viewBox"
         :fill="color"
     >
         <path
